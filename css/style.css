@@ -361,6 +361,12 @@
   text-align: justify;
 }
 
+@media (max-width: 420px) {
+  .title-text {
+    font-size: 18px;
+  }
+}
+
 @media (max-width: 768px) {
   .title-text {
     font-size: 28px;

@@ -138,6 +138,15 @@
   z-index: 1;
 }
 
+.orange-paramount {
+  color: #fda12b;
+  font-weight: 800;
+}
+
+.title-text {
+  font-size: 50px;
+}
+
 .carousel-control-prev,
 .carousel-control-next {
   width: 15%;
@@ -350,4 +359,16 @@
 
 .para-text {
   text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .title-text {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 992px) {
+  .title-text {
+    font-size: 36px;
+  }
 }
